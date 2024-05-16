@@ -6,7 +6,7 @@ const App = () => {
     const [numbers, setNumbers] = useState([5, 11, 16, 23, 32]);
 
     const generateNumbers = () => {
-        let newNumbers = [];
+        let newNumbers = [5];
         while(newNumbers.length < 5){
             let r = Math.floor(Math.random() * 36) + 1;
             if(newNumbers.indexOf(r) === -1) newNumbers.push(r);
