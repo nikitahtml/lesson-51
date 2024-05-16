@@ -14,7 +14,6 @@ const App = () => {
         newNumbers.sort((a, b) => a - b);
         setNumbers(newNumbers);
     }
-
     return (
         <div>
             {numbers.map((number, index) => (
